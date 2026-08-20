@@ -94,8 +94,8 @@
 
 <style scoped>
 
-    #Skills, #Services, #Skills2, #Projects {
-        width: 85%;
+    #Skills{
+        width: 90%;
         margin: 50px auto 0;
     }
 
@@ -111,10 +111,10 @@
     }
     
     .bar {
-    width: 100%;
-    height: 12px;
-    background: #000000e8;
-    border-radius: 7px;
+        width: 100%;
+        height: 12px;
+        background: #000000e8;
+        border-radius: 7px;
     }
 
     .progress-bar {

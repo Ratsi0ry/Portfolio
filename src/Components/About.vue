@@ -1,7 +1,7 @@
 <template>
 
     <section id="About" class="about"> 
-        <div class="img">
+        <div>
             <img src="@/Assets/Image/3646.png" alt="image">
         </div>    
         <div class="more">
@@ -31,8 +31,14 @@
         animation-fill-mode: forwards;
     }
 
-    .img img {
+    #About{
+        width: 90%;
+        margin: 50px auto 0;
+    }
+
+    img {
         width: 300px;
+        margin: 50px auto 0;
     }
 
     h1 {
@@ -43,7 +49,6 @@
         background: #d8c1c14d;
         border-radius: 20px;
         box-shadow: 0 5px 20px rgba(0, 0, 0, 0.459);
-        margin-right: 30px;
         padding: 30px;
         width: 55%;
     }

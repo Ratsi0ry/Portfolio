@@ -41,7 +41,7 @@
     }
 
     .info {
-        width: 85%;
+        width: 90%;
         margin: 50px auto 0;
         display: flex;
         align-items: center;

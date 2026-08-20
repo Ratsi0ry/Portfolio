@@ -19,7 +19,7 @@
         padding: 10px 20px;
         display: flex;
         justify-content: center;
-        box-shadow: 0 4px 6px -3px rgba(146, 146, 146, 0.1); 
+        box-shadow: 0 4px 1px -3px rgba(46, 52, 129, 0.1); 
     }
 
     .navlinks {

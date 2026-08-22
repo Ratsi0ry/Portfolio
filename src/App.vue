@@ -6,12 +6,13 @@
     </header>
 
     <main class="content">
-
-      <Home/>
-      <About/>
+      
+      <Hero/>
+      <!-- <About/> -->
       <Skills/>
       <Projects/>
       <Languages/>
+      <!-- <Contact/> -->
 
     </main>
   </div>
@@ -19,15 +20,17 @@
 
 
 <script setup>
-  import Home from './Components/Home.vue';
-  import About from './Components/About.vue';
+  // import Home from './Components/Home.vue';
+  // import About from './Components/About.vue';
   import Skills from './Components/Skills.vue';
   import Projects from './Components/Projects.vue';
   import Navbar from './Components/Navbar.vue';
-import Languages from './Components/Languages.vue';
+  import Languages from './Components/Languages.vue';
+  import Hero from './Components/Hero.vue';
+// import Contact from './Components/Contact.vue';
 </script>
 
-<style scoped>
+<style scopedz>
 
   .MainContent {
     background-color: #bebebed2;
@@ -50,5 +53,20 @@ import Languages from './Components/Languages.vue';
     z-index: 9999;             
     padding: 5px 0;         
   }
+
+  :root {
+	--indigo-a1: #00008002;
+	--indigo-a2: #0040ff08;
+	--indigo-a3: #0047f112;
+	--indigo-a4: #0044ff1e;
+	--indigo-a5: #0044ff2d;
+	--indigo-a6: #003eff3e;
+	--indigo-a7: #0037ed54;
+	--indigo-a8: #0034dc72;
+	--indigo-a9: #0031d2c1;
+	--indigo-a10: #002ec9cc;
+	--indigo-a11: #002bb7c5;
+	--indigo-a12: #001046e0;
+}
 
 </style>

@@ -134,7 +134,7 @@ const carouselCfg = { itemsToShow: 1.8, snapAlign: 'center', wrapAround: true, g
     }
 
     #Projects {
-        width: 90%;
+        width: 85%;
         max-width: 1200px;
         margin: 50px auto 0;
     }

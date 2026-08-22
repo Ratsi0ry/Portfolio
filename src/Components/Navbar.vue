@@ -2,11 +2,9 @@
 
     <nav class="navbar">
         <ul class="navlinks">
-            <li class="active"><a href="#Home">Accueil</a></li>
-            <li class="active"><a href="#About">Information</a></li>
-            <li class="active"><a href="#Skills">Compétences</a></li>
+            <li class="active"><a href="#Skills">Skills</a></li>
             <li class ="active"><a href="#Projects">Projets</a></li>
-            <li class="active"><a href="#Contact">Contact</a></li>
+            <li class="active"><a href="#Contact">Contacts</a></li>
         </ul>
     </nav>
 
@@ -16,16 +14,19 @@
 <style scoped>
 
     .navbar {
-        padding: 10px 20px;
         display: flex;
-        justify-content: center;
-        box-shadow: 0 4px 1px -3px rgba(46, 52, 129, 0.1); 
+        justify-content: right;
+        width: 85%;
+        background-color: var(--indigo-a1);
+        font-family: sans-serif;
     }
 
     .navlinks {
         display: flex;
         gap: 10px;
         list-style: none;
+        box-shadow: 0 4px 1px -3px rgba(46, 52, 129, 0.1); 
+
     }
 
     @keyframes entreeNav{
@@ -40,12 +41,8 @@
 
     nav{
     animation-name: entreeNav;
-    animation-duration: 1s;
+    animation-duration: 0.3s;
     animation-fill-mode: forwards; 
-    }
-
-    .navlinks li {
-    border-radius: 30px;
     }
 
     .navlinks a {
@@ -53,28 +50,18 @@
     align-items: center;
     gap: 6px;
     text-decoration: none;
-    color: #380474ad;
+    color: rgba(0, 0, 0, 0.801);
     padding: 10px 18px;
-    border-radius: 30px;
-    font-size: 14px;
+    font-size: medium;
     transition: background-color 0.3 ease, color 0.3 ease, transform 0.3s ease;
     }
 
     ul {
-    background: linear-gradient(to right, #c8c5cabd, #010d6b9a);
     padding: 5px;
-    border-radius: 20px;
     }
 
     .navlinks a:hover {
-    background: rgb(50, 8, 104);
-    color: white;
-    transform: scale(1.1);
-    }
-
-    .navlinks .active a {
-    background: rgba(0, 0, 0, 0.774);
-    color: white;
+    color: rgb(6, 24, 104);
     }
 
 </style>
